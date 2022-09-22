@@ -1,14 +1,78 @@
+
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <title>Sae Fortiche</title>
+    <title>Tests</title>
+    
+    <!-- Favicon change dark/light -->
+
+    <link rel="shortcut icon" href="light.svg" type="image/x-icon" id="faviconTag">
+    <link rel="stylesheet" href="style.css">
+
+    <script>
+        const faviconTag = document.getElementById("faviconTag");
+        const isDark = window.matchMedia("(prefers-color-scheme: dark)");
+
+        const changeFavicon = () => {
+        if (isDark.matches) faviconTag.href = "../resources/LogoDarkMode.png";
+        else faviconTag.href = "../resources/Logo.png";
+        };
+
+        changeFavicon();
+
+        setInterval(changeFavicon, 1000);
+    </script>
+
+    <!-- Favicon change dark/light -->
+
 </head>
 <body>
-    <center><p>Notre projet consiste à présenter l'entreprise Fortiche </p></center>
-    <p>si tu vois ça, bah coucou<!p>
+
+    <div class="navbar">
+        <a class="active" href="#">Accueil</a>
+        <a class="navhover" href="#">Réalisations</a>
+        <a class="navhover" href="#">Histoire</a>
+        <a class="navhover" href="#">Projet</a>
+        <a class="navhover" href="#">Economie</a>
+    </div>
+    
+    <!-- Parallax effect -->
+
+    <div class="container">
+
+        <section class="parallax">
+            <div class="background bg1"></div>
+            <h1>Test</h1>
+        </section>
+
+        <section class="normal">
+            <h1>Test</h1>
+        </section>
+
+        <section class="parallax">
+            <div class="background bg2"></div>
+            <h1>Test</h1>
+        </section>
+
+        <section class="normal">
+            <h1>Test</h1>
+        </section>
+
+        <section class="parallax">
+            <div class="background bg3"></div>
+            <h1>Test</h1>
+        </section>
+
+        <section class="footer">
+            <h1>Test</h1>
+        </section>
+
+    </div>
+    
+    <!-- Parallax effect -->
+
 </body>
 </html>
