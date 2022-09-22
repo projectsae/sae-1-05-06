@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Mulish');
+
+body {
+    background-color: black;
+    overflow: hidden;
+}
+
+/*Navigation menu*/
+
+    .navbar {
+        width: 100%;
+        background-color: black;
+        overflow: auto;
+        border-bottom: 1px solid #fff;
+    }
+
+    .active {
+        font-weight: 700;
+        border-bottom: 4px solid #fff;
+    }
+    
+    .navhover {
+        display: inline-block;
+        position: relative;
+        color: white;
+    }
+      
+    .navhover:after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 4px;
+        bottom: -4px;
+        left: 0;
+        background-color: white;
+        transform-origin: center;
+        transition: transform 0.25s ease-out;
+    }
+      
+    .navhover:hover:after {
+        transform: scaleX(1);
+        transform-origin: center;
+    }
+  
+    .navbar a {
+        float: left;
+        padding: 25px;
+        color: white;
+        text-decoration: none;
+        font-size: 25px;
+        width: 20%;
+        text-align: center;
+    }
+
+/*Navigation menu*/
+
+/*Parallax effect */
+
+* {
+    font-family: "Mulish";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+
+    perspective: 1px;
+    transform-style: preserve-3d;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.parallax {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transform-style: preserve-3d;
+}
+
+.background {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+
+    transform: translateZ(-1px) scale(2);
+}
+
+.bg1 {
+    background: url("../resources/1194219.jpg") center / cover;
+}
+
+.bg2 {
+    background: url("../resources/1192524.png") center / cover;
+}
+
+.bg3 {
+    background: url("../resources/1197981.jpg") center / cover;
+}
+
+.normal {
+    width: 100%;
+    height: 100vh;
+    background: black;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+h1 {
+    margin: 0 auto;
+    width: 90%;
+    font-size: 130px;
+    font-weight: 900;
+    line-height: 1.1;
+    letter-spacing: -2px;
+    color: white;
+    word-spacing: 100vw;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.parallax h1 {
+    color: white;
+    text-shadow: 0 10px 10px rgba(0, 0, 0, 1);
+}
+
+.parallax:nth-child(1) h1 {
+    text-align: left;
+}
+
+.normal h1 {
+    color: white;
+}
+
+.footer {
+    width: 100%;
+    height: 50vh;
+    background: black;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+/*Parallax effect */
