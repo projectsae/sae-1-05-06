@@ -17,8 +17,8 @@
         const isDark = window.matchMedia("(prefers-color-scheme: dark)");
 
         const changeFavicon = () => {
-        if (isDark.matches) faviconTag.href = "../LogoDarkMode.png";
-        else faviconTag.href = "../Logo.png";
+        if (isDark.matches) faviconTag.href = "LogoDarkMode.png";
+        else faviconTag.href = "Logo.png";
         };
 
         changeFavicon();
