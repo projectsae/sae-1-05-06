@@ -155,3 +155,18 @@ h1 {
 }
 
 /*Parallax effect */
+
+* {
+    scrollbar-width: auto;
+    scrollbar-color: rgb(255, 255, 255);
+  }
+
+ *::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+ *::-webkit-scrollbar-thumb {
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+  }
+/* Scrollbar */
