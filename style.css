@@ -170,32 +170,5 @@ h1 {
     border-radius: 25px;
   }
 /* Scrollbar */
-/*enemy*/
-.videoback{
-    width: 100%;
-    height: 100vh;
-    position: relative;
 
 }
-.videoback video{
-    width: 100%;
-    height: 100%;
-
-}
-.text-box{
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: #000;
-    height: 100%;
-    width: 100%;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 200px;
-    font-weight: 900; 
-    mix-blend-mode: multiply;
-    font-family: Mulish;
-}
-/*enemy*/
