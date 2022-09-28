@@ -2,7 +2,7 @@ html,body {
     font-family: 'Mulish', sans-serif;
     padding: 1em 2em;
     font-size: 18px;
-    background-color: gray;
+    background-color: black;
   }
   
 
@@ -18,5 +18,4 @@ html,body {
     color: white;
     word-spacing: 100vw;
     text-transform: uppercase;
-    text-shadow: 0 10px 10px black;
 }
