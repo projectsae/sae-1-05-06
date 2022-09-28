@@ -1,0 +1,22 @@
+html,body {
+    font-family: 'Mulish', sans-serif;
+    padding: 1em 2em;
+    font-size: 18px;
+    background-color: gray;
+  }
+  
+
+
+
+  h1 {
+    margin: 0.2em;
+    width: 90%;
+    font-size: 130px;
+    font-weight: 900;
+    line-height: 1.1;
+    letter-spacing: -2px;
+    color: white;
+    word-spacing: 100vw;
+    text-transform: uppercase;
+    text-shadow: 0 10px 10px black;
+}
