@@ -7,33 +7,54 @@ body {
 
 /*Navigation menu*/
 
+
+
     .navbar {
         width: 100%;
         background-color: black;
         overflow: auto;
         border-bottom: 1px solid #fff;
+        overflow-y: hidden;
     }
 
     .active {
         font-weight: 700;
-        border-bottom: 4px solid #fff;
+        color: black;
+        background-color: white;
+        border-left: 1px solid lightgray;
+        border-right: 1px solid lightgray;
+        border-bottom: 3px solid black;
+    }
+
+    .active:hover {
+        border-bottom: 3px solid black;
+        background-color: white;
+        color: black;
     }
     
     .navhover {
         display: inline-block;
         position: relative;
         color: white;
+        border-bottom: white;
+        transition: 0.25s;
     }
-      
+
+    .navhover:hover {
+        color: black;
+        background-color: white;
+        border-bottom: 3px solid #fff;
+    }
+
     .navhover:after {
         content: '';
         position: absolute;
         width: 100%;
         transform: scaleX(0);
-        height: 4px;
+        height: 3px;
         bottom: -4px;
         left: 0;
-        background-color: white;
+        background-color: black;
         transform-origin: center;
         transition: transform 0.25s ease-out;
     }
@@ -45,10 +66,9 @@ body {
   
     .navbar a {
         float: left;
-        padding: 25px;
-        color: white;
+        padding: 10px;
         text-decoration: none;
-        font-size: 25px;
+        font-size: 20px;
         width: 16.666%;
         text-align: center;
     }
@@ -73,6 +93,33 @@ body {
     overflow-y: auto;
 }
 
+.logo_slogan {
+    margin-left: 3vw;
+    margin-right: 60vw;
+    margin-top: 20vh;
+    margin-bottom: auto;
+}
+
+.logo_slogan img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.slogan {
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    box-sizing: border-box
+    }
+
+.slogan1 {
+    font-size: 80px;
+    text-align: center;
+    color: white;
+    box-sizing: border-box
+    }
+
 .parallax {
     width: 100%;
     height: 100vh;
@@ -95,7 +142,7 @@ body {
 }
 
 .bg1 {
-    background: url("images/1194219.png") center / cover;
+    background: url("images/1188302.png") center / cover;
 }
 
 .bg2 {
@@ -135,8 +182,14 @@ h1 {
     text-shadow: 0 10px 10px rgba(0, 0, 0, 1);
 }
 
+
+
 .parallax:nth-child(1) h1 {
-    text-align: left;
+    text-align: center;
+}
+
+.parallax img {
+    text-align: center;
 }
 
 .normal h1 {
@@ -162,25 +215,10 @@ h1 {
   }
 
  *::-webkit-scrollbar {
-    width: 5px;
+    width: 4px;
   }
   
  *::-webkit-scrollbar-thumb {
     background-color: rgb(255, 255, 255);
   }
 /* Scrollbar */
-
-}
-
-.texte_tapuscrit{
-    color: white;
-    text-align: left;
-    margin: 0 auto;
-    width: 90%;
-    font-size: 130px;
-    font-weight: 900;
-    line-height: 1.1;
-    letter-spacing: -2px;
-    word-spacing: 100vw;
-    text-transform: uppercase;
-}
