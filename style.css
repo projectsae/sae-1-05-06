@@ -247,6 +247,7 @@ hr {
 .footer p {
     margin-top:0;
     margin-right: 10vh;
+    margin-left: 5vh;
     font-size: 20px;
     color: gray;
     text-justify: auto;
