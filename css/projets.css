@@ -180,18 +180,18 @@ width: fit-content;
 
 }
 
-bas-page p{
+.bas-page p{
     padding-top: 30px;
     width: fit-content;
     color: gray;
 }
 
-bas-page a {
+.bas-page a {
     color: gray;
     width: fit-content;
 }
 
-bas-page img {
+.bas-page img {
     padding-top: 10px;
     padding-bottom: 10px;
     width: 8%;
