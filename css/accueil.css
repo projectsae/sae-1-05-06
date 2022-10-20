@@ -54,18 +54,20 @@ body {
         z-index: 2;
     }
 
-h1 {
-    margin: 0 auto;
-    width: 90%;
-    font-size: 130px;
-    font-weight: 900;
-    line-height: 1.1;
-    letter-spacing: -2px;
-    color: white;
-    word-spacing: 100vw;
-    text-align: center;
-    text-transform: uppercase;
-}
+    .reduced_normal {
+        width: 100%;
+        height: 10vh;
+        background: black;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 2;
+    }
+
+    .reduced_normal img {
+        height: 60vh;
+    }
 
 .logo_slogan {
     margin-left: 3vw;
@@ -93,4 +95,49 @@ h1 {
     text-align: center;
     color: white;
     box-sizing: border-box
-    }
+}
+
+.présentation {
+    width: 100%;
+    height: 27vh;
+    background: black;
+    position: relative;
+    display: block;
+    z-index: 3;
+    margin-bottom: 25vh;
+    box-shadow: 0 0 30px black;
+}
+
+.présentation h1 {
+    margin-left: 3%;
+    margin-right: auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: #E20079;
+}
+
+.présentation hr {
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: #23c9ff;
+    border-color: #23c9ff;
+}
+
+.présentation p {
+    margin-left: 3%;
+    margin-right: 30%;
+    padding-top: 2%;
+    font-size: 20px;
+}
+
+.présentation a {
+    color: gray;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 1%;
+    margin-left: 3%;
+}
+
+.présentation a:hover {
+    color: lightgray;
+}
