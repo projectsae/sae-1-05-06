@@ -37,11 +37,11 @@ p{
 }
 
 .image_gauche{
-  padding-right: 0em;
+  padding-right: 0;
 }
 
 .image_droite{
-  padding-left: 0em;
+  padding-left: 0;
 }
 
 h1 {
