@@ -11,19 +11,7 @@
     <link rel="stylesheet" href="../css/general.css">
     <link rel="stylesheet" href="../css/histoire.css">
     
-    <script>
-        const faviconTag = document.getElementById("faviconTag");
-        const isDark = window.matchMedia("(prefers-color-scheme: dark)");
-
-        const changeFavicon = () => {
-            if (isDark.matches) faviconTag.href = "../images/index/favicon_blanc.png";
-            else faviconTag.href = "../images/index/favicon_noir.png";
-            };
-
-            changeFavicon();
-
-            setInterval(changeFavicon, 1000);
-    </script>
+    <script src="../js/favicon.js"></script>
 </head>
 <body>
 
