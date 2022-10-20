@@ -75,6 +75,10 @@
   margin-bottom: 2em;
 }
 
+.riot{
+  font-size: 1.7em;
+}
+
 .page .riot b{
   color: #23C9FF;
 }
