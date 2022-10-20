@@ -109,6 +109,7 @@ hr {
     margin-left: 10px;
     width: 180%;
     padding-bottom: 30px;
+    overflow-x: hidden; 
 }
 .personnel2{
     font-family: 'Mulish', cursive;
