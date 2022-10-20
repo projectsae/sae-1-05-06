@@ -165,12 +165,12 @@ details[open] summary {
 
 
 .bas-page {
-  position: fixed;
   bottom: 0;
   display: flex;
   flex-direction: row;
   background-color: black;
   justify-content: space-around;
+  z-index: 99;
 }
 
 .navfooter{
