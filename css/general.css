@@ -38,7 +38,7 @@ body {
         border-bottom: 1px solid #fff;
         overflow: hidden;
         overflow-y: hidden;
-        position: fixed;
+        position: sticky;
         top: 0;
         z-index: 100;
         background-color: black;
