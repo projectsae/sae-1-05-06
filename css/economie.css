@@ -30,6 +30,8 @@ body {
         overflow: auto;
         border-bottom: 1px solid #fff;
         overflow: hidden;
+	position: fixed;
+	margin-top: 0;
     }
 
     .active {
