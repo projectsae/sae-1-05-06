@@ -103,11 +103,6 @@ body {
   background-color: black;
 }
 
-.milieu{
-  padding: 10px 50px 30px 0;
-}
-
-
 
 .inverse_scroll {
   position: fixed;
@@ -140,7 +135,7 @@ div.alt-event {
   width: 45%;
   margin-bottom: 20px;
   position: relative;
-  right: 100px;
+  right: 10px;
 }
 
 div.alt-event video{
