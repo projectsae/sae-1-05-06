@@ -138,7 +138,7 @@ p{
 h1 {
   font-size: 5em;
   letter-spacing: 0px;
-  color: white;
+  color: #E20079;
   text-align: center;
   text-transform: uppercase;
   margin: 1em;
@@ -147,10 +147,17 @@ h1 {
 
 h2 {
   font-size: 2em;
-  color: white;
+  color: #23C9FF;
   text-transform: uppercase;
   margin: 1em;
   margin-bottom: 2em;
+}
+
+hr{
+  margin-inline: 2em;
+  height: 2px;
+  border: none;
+  background-color: #E20079;
 }
 
 .riot{
@@ -169,14 +176,16 @@ h2 {
   position: absolute;  
   right: 65%;
   top: 40%;
-  color: black;
+  color: #23C9FF;
   font-size: 3em;
+  opacity: 50%;
 }
 
 .texte2{
   position: absolute;  
   left: 65%;
   top: 40%;
-  color: black;
+  color: #23C9FF;
   font-size: 3em;
+  opacity: 50%;
 }
