@@ -135,7 +135,7 @@ div.alt-event {
   width: 45%;
   margin-bottom: 20px;
   position: relative;
-  right: 1px;
+  right: 2px;
 }
 
 div.alt-event video{
@@ -160,7 +160,7 @@ div.alt-event img{
 }
 
 
-div.right { left: 331px; }
+div.right { left: 329px; }
 
 
 p.date {
