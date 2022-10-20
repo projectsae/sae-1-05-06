@@ -46,6 +46,7 @@ div.imagesPrestations img{
     margin-bottom: 50px;
     font-weight: 300;
     color :#23C9FF; 
+    font-size: 20px;
 }
 .jerome img{
     margin: auto;
@@ -85,6 +86,7 @@ div.text img{
     color: white;
     margin-right: 50 px;
     margin-bottom: 30 px;
+    font-size: 20px;
 }
 .personnel{
     font-family: 'Mulish', cursive;
@@ -92,6 +94,7 @@ div.text img{
     grid-template-columns: 60% 30%;
     justify-content: center;
     text-align: justify;
+    font-size: 20px;
 }
 hr {
     display: block;
@@ -119,6 +122,7 @@ hr {
     grid-template-columns: 30% 60%;
     justify-content: center;
     text-align: justify;
+    font-size: 20px;
 }
 .personnel2 img{
     margin: left;
