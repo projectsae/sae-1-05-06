@@ -2,6 +2,7 @@
 
 body{
     background-color : black;
+    overflow-x: hidden; 
 }
 .titre{
     font-family: 'Mulish', cursive;
