@@ -8,7 +8,7 @@ Ecran de zoning
 Ecran prototype
 ![écran prototype](doc/ecran_prototype.png)
 
-Participation : <br>
+Participation : <br> <br>
   Accueil : Tous <br>
   Histoire : Tom <br>
   Projets : Nathan <br>
