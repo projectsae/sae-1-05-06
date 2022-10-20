@@ -12,51 +12,41 @@
         <link rel="stylesheet" href="css/general.css">
         <link rel="stylesheet" href="css/accueil.css">
         
-        <script>
-            const faviconTag = document.getElementById("faviconTag");
-            const isDark = window.matchMedia("(prefers-color-scheme: dark)");
-    
-            const changeFavicon = () => {
-                if (isDark.matches) faviconTag.href = "images/index/favicon_blanc.png";
-                else faviconTag.href = "images/index/favicon_noir.png";
-                };
-    
-                changeFavicon();
-    
-                setInterval(changeFavicon, 1000);
-        </script>
+        <script src="js/favicon_accueil.js"></script>
     </head>
 
 <body>
     
     <!-- Navigation Bar -->
 
-    <div class="navbar">
-        <ul>
-            <li>
-                <a class="active" href="index.html">Accueil</a>
-            </li>
-            <li>
-                <a class="inactive" href="html/histoire.html">Histoire</a>
-            </li>
-            <li>
-                <a class="inactive" href="html/projets.html">Projets</a>
-            </li>
-            <li>
-                <a class="inactive" href="html/economie.html">Economie</a>
-            </li>
-            <li>
-                <a class="inactive" href="html/a_propos.html">A propos</a>
-            </li>
-            <li>
-                <a class="inactive" href="html/contact.html">Contact</a>
-            </li>
-        </ul>
-    </div>
+    <div class="container">
+
+        <div class="navbar">
+            <ul>
+                <li>
+                    <a class="active" href="index.html">Accueil</a>
+                </li>
+                <li>
+                    <a class="inactive" href="html/histoire.html">Histoire</a>
+                </li>
+                <li>
+                    <a class="inactive" href="html/projets.html">Projets</a>
+                </li>
+                <li>
+                    <a class="inactive" href="html/economie.html">Economie</a>
+                </li>
+                <li>
+                    <a class="inactive" href="html/a_propos.html">A propos</a>
+                </li>
+                <li>
+                    <a class="inactive" href="html/contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
 
     <!-- Page -->
 
-    <div class="container">
+    
 
         <div class="parallax">
             <div class="background bg1"></div>
