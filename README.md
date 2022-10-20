@@ -7,3 +7,11 @@ Ecran de zoning
 ![écran de zoning](doc/ecran_zoning.png)
 Ecran prototype
 ![écran prototype](doc/ecran_prototype.png)
+
+Participation :
+  Accueil : Tous
+  Histoire : Tom
+  Projets : Nathan
+  Economie : Baptiste
+  A Propos : Mathis
+  Contact : Zekeriya
