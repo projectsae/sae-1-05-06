@@ -6,10 +6,6 @@
   font-family: "Mulish";
 }
 
-body {
-    background-color: black;
-}
-
 * {
     font-family: 'Mulish';
     margin: 0;
@@ -103,6 +99,7 @@ body {
   margin: 0;
   padding: 0;
   height: 7930px;
+  background-color: black;
 }
 
 .milieu{
@@ -116,7 +113,7 @@ body {
   bottom: 0;
   left: 0;
   width: 100%;
-  z-index: 99;
+  z-index: 9;
 }
 
 .alt-vtl {
