@@ -164,13 +164,13 @@ details[open] summary {
 }
 
 
-.bas-page {
+div.bas-page {
   bottom: 0;
   display: flex;
   flex-direction: row;
   background-color: black;
   justify-content: space-around;
-  z-index: 99;
+  z-index: 999;
 }
 
 .navfooter{
