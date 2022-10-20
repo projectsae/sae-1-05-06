@@ -132,8 +132,9 @@ hr {
 .petittitre{
     font-family: 'Mulish', cursive;
     font-size: 1em;
-    margin: 15px;
+    margin: 30px;
     font-weight: 300;
     color : #ffffff;
+    margin-left: 40px;
     text-align: left;
 }
