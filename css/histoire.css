@@ -1,0 +1,91 @@
+*,
+*::before,
+
+
+body {
+  background-color: black;
+}
+
+.wrapper {
+  margin: 0 auto;
+  padding: 0 16.66% 50px;
+  width: 100%;
+}
+
+.timeline {
+  position: relative;
+  max-width: 980px;
+  margin: 10vh auto;
+  overflow-y: auto;
+  overflow-x: hidden;
+  line-height: 1.5;
+}
+
+.timeline__nav {
+  position: fixed;
+  z-index: 99;
+  top: 25%;
+  transition: top 0.3s ease-out;
+}
+.timeline__nav ul {
+  list-style: none;
+  list-style-position: inside;
+  margin: 15px 0;
+}
+.timeline__nav ul li {
+  margin: 15px 0;
+  padding-left: 0;
+  list-style-type: none;
+  color: #e20079;
+  border-bottom: 1px solid #e20079;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.timeline__nav ul li.active {
+  font-weight: 700;
+  border-bottom: 1px solid white;
+  transform: scale(1.2);
+  color: white;
+}
+.timeline__nav ul li:hover {
+  font-weight: 700;
+}
+
+.timeline__section p {
+  color: white;
+}
+
+.timeline__section h2 {
+  color: white;
+}
+
+.milestone {
+  margin-top: 5%;
+  margin-bottom: 1%;
+}
+
+hr {
+  margin-bottom: 1%;
+  background-color: #23c9ff;
+  border-color: #23c9ff;
+}
+
+p {
+  margin-top: 2%;
+}
+
+.title h1 {
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+img{
+  margin-top: 2%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}

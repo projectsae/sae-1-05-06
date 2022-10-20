@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Accueil</title>
+    
+        <link rel="shortcut icon" href="../images/index/favicon_noir.png" type="image/x-icon" id="faviconTag">
+    
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/accueil.css">
+        
+        <script>
+            const faviconTag = document.getElementById("faviconTag");
+            const isDark = window.matchMedia("(prefers-color-scheme: dark)");
+    
+            const changeFavicon = () => {
+                if (isDark.matches) faviconTag.href = "../images/index/favicon_blanc.png";
+                else faviconTag.href = "../images/index/favicon_noir.png";
+                };
+    
+                changeFavicon();
+    
+                setInterval(changeFavicon, 1000);
+        </script>
+    </head>
+
+<body>
+    
+    <!-- Navigation Bar -->
+
+    <div class="navbar">
+        <ul>
+            <li>
+                <a class="active" href="accueil.html">Accueil</a>
+            </li>
+            <li>
+                <a class="inactive" href="histoire.html">Histoire</a>
+            </li>
+            <li>
+                <a class="inactive" href="projets.html">Projets</a>
+            </li>
+            <li>
+                <a class="inactive" href="economie.html">Economie</a>
+            </li>
+            <li>
+                <a class="inactive" href="a_propos.html">A propos</a>
+            </li>
+            <li>
+                <a class="inactive" href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Page -->
+
+    <div class="container">
+
+        <div class="parallax">
+            <div class="background bg1"></div>
+            <div class="logo_slogan">
+                <img src="../images/accueil/logo_fortiche_noir.png" alt="Logo de Fortiche">
+                <p class="slogan">Présentation</p>
+                <p class="slogan">du roi français de l'animation</p>
+            </div>
+        </div>
+
+        <!-- Footer -->
+
+        <div class="footer">
+            <img src="../images/index/logo_iutbm.jpg" alt="Logo IUTBM">
+            <p>
+                Ce site web a pour but de vous présenter l’entreprise Fortiche, studio d’animation français.
+                Fortiche est une entreprise qui s’accroît d’année en année. Son travail a notamment été illustré par une série à succès nommé « Arcane », série de l’univers de « League Of Legends » (jeu vidéo à très grand succès).
+                Nous avons décidé de présenter cette entreprise car c’est l’une des meilleures entreprises d’animation française et donc que son travail nous a beaucoup plu à tous.
+                C’est une animation très spéciale, qui possède une patte graphique unique. L’animation peut être très différente en fonction des projets mais le réalisme est toujours présent.
+            </p>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

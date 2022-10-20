@@ -1,0 +1,56 @@
+
+
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Histoire</title>
+    
+        <link rel="shortcut icon" href="../images/index/favicon_noir.png" type="image/x-icon" id="faviconTag">
+    
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/a_propos.css">
+        
+        <script>
+            const faviconTag = document.getElementById("faviconTag");
+            const isDark = window.matchMedia("(prefers-color-scheme: dark)");
+    
+            const changeFavicon = () => {
+                if (isDark.matches) faviconTag.href = "../images/index/favicon_blanc.png";
+                else faviconTag.href = "../images/index/favicon_noir.png";
+                };
+    
+                changeFavicon();
+    
+                setInterval(changeFavicon, 1000);
+        </script>
+    </head>
+<body>
+
+    <div class="navbar">
+        <ul>
+            <li>
+                <a class="inactive" href="accueil.html">Accueil</a>
+            </li>
+            <li>
+                <a class="inactive" href="histoire.html">Histoire</a>
+            </li>
+            <li>
+                <a class="inactive" href="projets.html">Projets</a>
+            </li>
+            <li>
+                <a class="inactive" href="economie.html">Economie</a>
+            </li>
+            <li>
+                <a class="active" href="a_propos.html">A propos</a>
+            </li>
+            <li>
+                <a class="inactive" href="contact.html">Contact</a>
+            </li>
+        </ul>
+      </div>
+
+</body>
+</html>
