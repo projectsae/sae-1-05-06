@@ -74,7 +74,7 @@ hr {
   border-color: #23c9ff;
 }
 
-p {
+.wrapper p {
   margin-top: 2%;
 }
 
@@ -86,7 +86,7 @@ p {
   margin-bottom: 5%;
 }
 
-img{
+.wrapper img{
   margin-top: 2%;
   display: block;
   margin-left: auto;
