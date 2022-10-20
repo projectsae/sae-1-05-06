@@ -177,6 +177,7 @@ div.bas-page {
 padding-top: 30px;
 color: gray;
 width: fit-content;
+z-index: 999;
 
 }
 
@@ -184,15 +185,18 @@ width: fit-content;
     padding-top: 30px;
     width: fit-content;
     color: gray;
+    z-index: 999;
 }
 
 .bas-page a {
     color: gray;
     width: fit-content;
+    z-index: 999;
 }
 
 .bas-page img {
     padding-top: 10px;
     padding-bottom: 10px;
     width: 8%;
+    z-index: 999;
 }
