@@ -27,6 +27,10 @@ body {
   top: 25%;
   transition: top 0.3s ease-out;
 }
+
+.timeline__nav span {
+  font-size: 20px;
+}
 .timeline__nav ul {
   list-style: none;
   list-style-position: inside;
@@ -88,4 +92,13 @@ img{
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+.milestone {
+  font-size: 26px;
+}
+
+.wrapper p {
+  font-size: 20px;
+  text-align: justify;
 }
