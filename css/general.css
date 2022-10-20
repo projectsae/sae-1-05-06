@@ -129,3 +129,33 @@ body {
     text-justify: auto;
 }
 
+
+footer{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    justify-content: space-around;
+}
+
+.navfooter{
+padding-top: 30px;
+color: gray;
+width: fit-content;
+
+}
+footer p{
+    padding-top: 30px;
+    width: fit-content;
+    color: gray;
+}
+footer a {
+    color: gray;
+    width: fit-content;
+}
+footer img {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 8%;
+}
+
+
