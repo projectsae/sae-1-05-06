@@ -9,7 +9,6 @@ body {
   margin: 0;
   padding: 0;
   height: 7930px;
-  background-color: black;
 }
 
 .milieu{
@@ -23,7 +22,7 @@ body {
   bottom: 0;
   left: 0;
   width: 100%;
-  z-index: 99990;
+  z-index: 99;
 }
 
 .alt-vtl {
