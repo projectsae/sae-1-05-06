@@ -167,4 +167,32 @@ details[open] summary {
 .bas-page {
   position: fixed;
   bottom: 0;
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  justify-content: space-around;
+}
+
+.navfooter{
+padding-top: 30px;
+color: gray;
+width: fit-content;
+
+}
+
+bas-page p{
+    padding-top: 30px;
+    width: fit-content;
+    color: gray;
+}
+
+bas-page a {
+    color: gray;
+    width: fit-content;
+}
+
+bas-page img {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 8%;
 }
