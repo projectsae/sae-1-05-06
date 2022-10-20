@@ -52,7 +52,7 @@ div.alt-event iframe{
   margin-right: auto;
   display: block;
   width: 100%;
-  frameborder: 0;
+  border: 0;
 }
 
 div.alt-event img{
