@@ -31,7 +31,6 @@ body {
         border-bottom: 1px solid #fff;
         overflow: hidden;
 	position: fixed;
-	top: 0;
     }
 
     .active {
