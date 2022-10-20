@@ -162,3 +162,9 @@ details[open] summary {
     margin-bottom: .5em;
     color: black !important;
 }
+
+
+.bas-page {
+  position: fixed;
+  bottom: 0;
+}
