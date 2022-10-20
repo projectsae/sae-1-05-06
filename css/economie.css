@@ -28,7 +28,7 @@
   cursor: pointer;
 }
 
-p{
+.page p{
   padding: 1em;
   padding-top: 0em;
   text-align: justify;
@@ -44,7 +44,7 @@ p{
   padding-left: 0;
 }
 
-h1 {
+.page h1 {
   font-size: 5em;
   letter-spacing: 0px;
   color: #E20079;
@@ -54,7 +54,7 @@ h1 {
   margin-bottom: 2em;
 }
 
-h2 {
+.page h2 {
   font-size: 2em;
   color: #23C9FF;
   text-transform: uppercase;
@@ -62,7 +62,7 @@ h2 {
   margin-bottom: 2em;
 }
 
-hr{
+.page hr{
   margin-inline: 2em;
   height: 2px;
   border: none;
