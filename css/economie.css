@@ -73,9 +73,6 @@
   position: relative;
   margin-top: 2em;
   margin-bottom: 2em;
-}
-
-.riot{
   font-size: 1.7em;
 }
 
@@ -105,4 +102,8 @@
   color: #23C9FF;
   font-size: 3em;
   opacity: 50%;
+}
+
+.riot p {
+  font-size: 50px;
 }

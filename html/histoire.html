@@ -11,7 +11,19 @@
     <link rel="stylesheet" href="../css/general.css">
     <link rel="stylesheet" href="../css/histoire.css">
     
-    <script src="../js/favicon.js"></script>
+    <script>
+      const faviconTag = document.getElementById("faviconTag");
+      const isDark = window.matchMedia("(prefers-color-scheme: dark)");
+
+      const changeFavicon = () => {
+          if (isDark.matches) faviconTag.href = "../images/index/favicon_blanc.png";
+          else faviconTag.href = "../images/index/favicon_noir.png";
+          };
+
+          changeFavicon();
+
+          setInterval(changeFavicon, 1000);
+      </script>
 </head>
 <body>
 
@@ -64,6 +76,7 @@
         <h2 class="milestone">2009</h2>
         <hr>
         <p>Pascal Charrue, Jérôme Combe et Arnaud Delord, trois passionnés d’animation, fondent leur société en choisissant comme premier nom “Alexandra Lourenco”, dont on ne connaît pas l’origine, pour prendre finalement le nom de “Fortiche” d'après leur état d’esprit à l’époque, avec pour ambition de faire de ce nom une référence mondiale de l’animation.</p>
+        <img src="../images/histoire/fondateurs_fortiche.jpg" alt="Histoire Fortiche">
         <p>Parmi les trois fondateurs, Arnaud Delord faisait déjà des clips musicaux, principalement tournés dans la réalité et accompagnée d’effets 3D, Pascal Charrue faisait lui aussi des tests d’animation 3D, mais c’est Jérôme Combe qui donnera au studio sa marque de fabrique, un mélange entre 2D et 3D qu’il mettait déjà en œuvre avant la création de Fortiche, que ce soit pour des projets expérimentaux ou même des publicités commandées par des marques répandues en France. </p>
         <p>Les premières années furent difficiles pour le studio d’animation, il a du mal à se faire connaître ce qui contribue à son déficit dès 2010, il s’est d’ailleurs endetté à hauteur de 262 000€ pour pouvoir tenir, il faut alors espérer qu’une commande vienne tout changer.</p>
     

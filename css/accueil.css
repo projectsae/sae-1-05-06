@@ -113,14 +113,14 @@ body {
     margin-right: auto;
     padding-top: 1%;
     padding-bottom: 1%;
-    color: #E20079;
+    color: #23c9ff;
 }
 
 .présentation hr {
     margin-left: 2%;
     margin-right: 2%;
-    background-color: #23c9ff;
-    border-color: #23c9ff;
+    background-color: #E20079;
+    border-color: #E20079;
 }
 
 .présentation p {

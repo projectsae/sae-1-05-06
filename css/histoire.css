@@ -40,8 +40,8 @@ body {
   margin: 15px 0;
   padding-left: 0;
   list-style-type: none;
-  color: #e20079;
-  border-bottom: 1px solid #e20079;
+  color: #E20079;
+  border-bottom: 1px solid #E20079;
   cursor: pointer;
   transition: all 0.3s ease-out;
 }
@@ -60,7 +60,7 @@ body {
 }
 
 .timeline__section h2 {
-  color: #E20079;
+  color: #23c9ff;
 }
 
 .milestone {
@@ -70,8 +70,8 @@ body {
 
 hr {
   margin-bottom: 1%;
-  background-color: #23c9ff;
-  border-color: #23c9ff;
+  background-color: #E20079;
+  border-color: #E20079;
 }
 
 .wrapper p {

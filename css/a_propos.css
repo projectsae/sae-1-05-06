@@ -119,18 +119,21 @@ hr {
 .personnel2{
     font-family: 'Mulish', cursive;
     display: grid;
-    grid-template-columns: 30% 60%;
+    grid-template-columns: 50% 50%;
     justify-content: center;
     text-align: justify;
     font-size: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 .personnel2 img{
     margin: left;
     width:100px ;
 }
 .imageperso2 img{
-    margin-left: 50px;
-    width: 80%;
+    margin-left: 12%;
+    margin-right: 0;
+    width: 75%;
     padding-bottom: 30px;
     padding-top: 20px;
 }
@@ -143,4 +146,13 @@ hr {
     color : #ffffff;
     margin-left: 40px;
     text-align: left;
+}
+
+h2 {
+    margin-bottom: 2%;
+}
+
+.imageperso2 p {
+    margin-left: 3%;
+    margin-right: auto;
 }

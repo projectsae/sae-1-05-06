@@ -185,18 +185,12 @@ z-index: 999;
     padding-top: 30px;
     width: fit-content;
     color: gray;
-    z-index: 999;
-}
-
-.bas-page a {
-    color: gray;
-    width: fit-content;
-    z-index: 999;
+    z-index: 1;
 }
 
 .bas-page img {
     padding-top: 10px;
     padding-bottom: 10px;
     width: 8%;
-    z-index: 999;
+    z-index: 1;
 }
